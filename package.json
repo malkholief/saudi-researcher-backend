@@ -1,0 +1,18 @@
+{
+    "name": "saudi-researcher-directory-backend",
+    "version": "1.0.0",
+    "description": "Backend API that queries OpenAlex for Saudi-affiliated researchers by field",
+    "main": "src/server.js",
+    "type": "module",
+    "scripts": {
+          "start": "node src/server.js"
+    },
+    "dependencies": {
+          "express": "^4.19.2",
+          "cors": "^2.8.5",
+          "node-cache": "^5.1.2"
+    },
+    "engines": {
+          "node": ">=18.0.0"
+    }
+}
